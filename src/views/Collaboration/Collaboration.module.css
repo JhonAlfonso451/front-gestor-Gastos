@@ -1,0 +1,84 @@
+.container {
+  padding-top: 50px;
+}
+
+.cardDonacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  box-shadow: 0 4px 8px rgba(17, 131, 197, 0.1);
+}
+
+.cardDonacionText {
+  flex: 1;
+  padding: 20px;
+}
+
+.cardDonacionText h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  /* Color del título */
+}
+
+.cardDonacionText p {
+  font-size: 16px;
+  color: #555;
+  /* Color del texto */
+}
+
+.cardDonacionImg {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+.cardDonacionImg img {
+  max-width: 80%;
+  /* Cambia el tamaño de la imagen según necesites */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  /* Espacio entre la imagen y el texto */
+}
+
+.cardDonacionImg p {
+  font-size: 14px;
+  color: #888;
+  /* Color del texto informativo */
+  margin-bottom: 10px;
+  /* Espacio entre el texto informativo y la lista */
+}
+
+.cardDonacionImg ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cardDonacionImg ul li {
+  margin-bottom: 5px;
+  /* Espacio entre elementos de la lista */
+  font-size: 14px;
+  color: #555;
+  /* Color del texto de la lista */
+}
+
+.cardDonacion button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.cardDonacion button:hover {
+  opacity: 0.8;
+}
